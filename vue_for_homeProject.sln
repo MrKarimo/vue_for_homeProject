@@ -4,8 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.32126.315
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Home.Project", "test\Home.Project.csproj", "{53FBF62E-5393-4C99-B1B1-222C43677287}"
+	ProjectSection(ProjectDependencies) = postProject
+		{89FDB36B-C8F4-4899-BAA6-F0F15A532ABD} = {89FDB36B-C8F4-4899-BAA6-F0F15A532ABD}
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{89FDB36B-C8F4-4899-BAA6-F0F15A532ABD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{89FDB36B-C8F4-4899-BAA6-F0F15A532ABD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
