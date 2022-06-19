@@ -5,16 +5,15 @@ using System.Collections.Generic;
 // If you have enabled NRTs for your project, then un-comment the following line:
 // #nullable disable
 
-namespace Core
+namespace Model.Entity.Core
 {
-    public partial class CalcMeter
+    public partial class Price
     {
         public int Id { get; set; }
-        public int MeasurementId { get; set; }
-        public double Sum { get; set; }
+        public DateTime Date { get; set; }
+        public double Value { get; set; }
         public int TypePayId { get; set; }
 
-        public virtual Measurement Measurement { get; set; }
         public virtual TypePay TypePay { get; set; }
     }
 }

@@ -32,7 +32,7 @@ namespace Project.MiddleWare
                 await HandleExceptionAsunc(httpContext,
                     ex, 
                     HttpStatusCode.NotFound, 
-                    "Atantion");
+                    "Actantion");
             }
         }
 
